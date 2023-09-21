@@ -23,7 +23,7 @@ body, ul {
     font-weight: bold;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
-    background-size: 20 ;
+    background-size: cover;
 }
 
 .container {
@@ -70,10 +70,11 @@ p {
     color: blue;
     border-color: blue;
 }
-
+    
 .avatar{
+   
     height: 300px;
-    /* background-image: url(images/background1.png); */
+    background-image: url(images/background1.png); 
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -81,6 +82,7 @@ p {
 
 .avatar img {
     height: 100%;
+    
 }
 
 .text-center {
